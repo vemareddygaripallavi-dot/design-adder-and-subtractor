@@ -1,0 +1,21 @@
+|adderandsubtractor
+A[0] => _.DATAD
+A[1] => _.DATAD
+A[2] => _.DATAD
+A[3] => _.DATAD
+B[0] => B_comp[0].IN0
+B[1] => B_comp[1].IN0
+B[2] => B_comp[2].IN0
+B[3] => B_comp[3].IN0
+mode => B_comp[0].IN1
+mode => B_comp[1].IN1
+mode => B_comp[2].IN1
+mode => B_comp[3].IN1
+mode => _.DATAB
+result[0] <= _.SUM_OUT
+result[1] <= _.SUM_OUT
+result[2] <= _.SUM_OUT
+result[3] <= _.SUM_OUT
+carry <= _.SUM_OUT
+
+
